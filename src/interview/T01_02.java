@@ -2,7 +2,7 @@ package interview;
 
 import java.util.HashMap;
 
-public class T002 {
+public class T01_02 {
     public static boolean CheckPermutation(String s1, String s2) {
         if(s1.length() != s2.length())
             return false;

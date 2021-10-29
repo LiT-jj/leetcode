@@ -1,6 +1,6 @@
 package interview;
 
-public class T003 {
+public class T01_03 {
     public static String replaceSpaces(String S, int length) {
         char[] chars = S.toCharArray();
         char[] temp = new char[]{'%', '2', '0'};

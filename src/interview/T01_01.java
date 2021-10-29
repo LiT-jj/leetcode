@@ -2,7 +2,7 @@ package interview;
 
 import java.util.HashMap;
 
-public class T001 {
+public class T01_01 {
     public static boolean isUnique(String astr){
         char[] chars = astr.toCharArray();
         HashMap<Character, Integer> hashMap = new HashMap<Character, Integer>();
