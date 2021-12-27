@@ -1,4 +1,4 @@
-package interview;
+package HOT100;
 
 public class ListNode {
     int val;
