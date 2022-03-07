@@ -5,8 +5,7 @@ import java.util.Random;
 public class 经典排序算法 {
 
     public static void main(String[] args) {
-        int[] nums = new int[]{3,2,1,5,6,4};
-//        快速排序(nums, 0, nums.length - 1);
+        int[] nums = new int[]{5,8,3,9,10,7};
         堆排序(nums);
         for (int i = 0; i < nums.length; i++) {
             System.out.print(nums[i] + " ");

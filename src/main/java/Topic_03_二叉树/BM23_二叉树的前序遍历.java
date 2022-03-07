@@ -4,16 +4,6 @@ package Topic_03_二叉树;
 import java.util.LinkedList;
 import java.util.List;
 
-class TreeNode {
-    int val = 0;
-    TreeNode left = null;
-    TreeNode right = null;
-    public TreeNode(int val) {
-        this.val = val;
-    }
-}
- 
-
 public class BM23_二叉树的前序遍历 {
     public int[] preorderTraversal (TreeNode root) {
         // write code here
