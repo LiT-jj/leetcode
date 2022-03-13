@@ -45,8 +45,56 @@ public class MyTest {
         System.out.println(bm69_把数字翻译成字符串.solve("10"));
     }
 
+    @Test
+    public void BM70(){
+        BM70_兑换零钱1 bm70_兑换零钱1 = new BM70_兑换零钱1();
+        System.out.println(bm70_兑换零钱1.minMoney(new int[]{5, 2, 3}, 0));
+    }
+
+    @Test
+    public void BM71(){
+        BM71_最长上升子序列1 bm71_最长上升子序列1 = new BM71_最长上升子序列1();
+        System.out.println(bm71_最长上升子序列1.LIS(new int[]{1,6,4,7,5,3,2}));
+    }
 
 
+    @Test
+    public void BM72(){
+        BM72_连续子数组的最大和 bm72_连续子数组的最大和 = new BM72_连续子数组的最大和();
+        System.out.println(bm72_连续子数组的最大和.FindGreatestSumOfSubArray(new int[]{2,8,1,5,9}));
+    }
+
+    @Test
+    public void BM73(){
+        BM73_最长回文子串 bm73_最长回文子串 = new BM73_最长回文子串();
+        System.out.println(bm73_最长回文子串.getLongestPalindrome("bb"));
+    }
+
+    @Test
+    public void BM75(){
+        BM75_编辑距离1 bm75_编辑距离1 = new BM75_编辑距离1();
+        System.out.println(bm75_编辑距离1.editDistance("new", "nowcoder"));
+    }
+
+    @Test
+    public void BM76(){
+        String str1 = "ba";
+        String str2 = "a*";
+        BM76_正则表达式匹配 bm76_正则表达式匹配 = new BM76_正则表达式匹配();
+        System.out.println(bm76_正则表达式匹配.match(str1, str2));
+    }
+
+    @Test
+    public void BM77(){
+        BM77_最长的括号子串 bm77_最长的括号子串 = new BM77_最长的括号子串();
+        System.out.println(bm77_最长的括号子串.longestValidParentheses("())"));
+    }
+
+    @Test
+    public void BM79(){
+        BM79_打家劫舍2 bm79_打家劫舍2 = new BM79_打家劫舍2();
+        System.out.println(bm79_打家劫舍2.rob(new int[]{43, 4, 4, 1, 26, 29, 24, 44, 52, 1}));
+    }
     @Test
     public void testIterable(){
         HashMap<Integer, Integer> map = new HashMap<>();
