@@ -1,12 +1,10 @@
 import Topic_03_二叉树.BM27_按之字形顺序打印二叉树;
 import Topic_03_二叉树.TreeNode;
+import Topic_06_递归_回溯.BM57_岛屿数量;
 import Topic_07_动态规划.*;
 import org.junit.Test;
 
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Set;
+import java.util.*;
 
 public class MyTest {
     @Test
@@ -15,6 +13,7 @@ public class MyTest {
         BM27_按之字形顺序打印二叉树 bm27_按之字形顺序打印二叉树 = new BM27_按之字形顺序打印二叉树();
         bm27_按之字形顺序打印二叉树.Print(root);
     }
+
 
     @Test
     public void BM65(){
@@ -96,6 +95,12 @@ public class MyTest {
         System.out.println(bm79_打家劫舍2.rob(new int[]{43, 4, 4, 1, 26, 29, 24, 44, 52, 1}));
     }
     @Test
+    public void BM82(){
+        BM82_买卖股票的最好时机3 bm82_买卖股票的最好时机3 = new BM82_买卖股票的最好时机3();
+        System.out.println(bm82_买卖股票的最好时机3.maxProfit(new int[]{8, 9, 3, 5, 1, 3}));
+    }
+
+    @Test
     public void testIterable(){
         HashMap<Integer, Integer> map = new HashMap<>();
         map.put(1, 100);
@@ -104,6 +109,17 @@ public class MyTest {
         Iterator<Integer> iterator = set.iterator();
         while (iterator.hasNext()){
             System.out.println(iterator.next());
+        }
+    }
+
+    @Test
+    public void testScanner(){
+        Scanner scanner = new Scanner(System.in);
+        while(scanner.hasNext()){
+            int a = scanner.nextInt();
+            int b = scanner.nextInt();
+            String s = scanner.nextLine();
+            System.out.println(String.format("%d-%d-%s", a, b, s));
         }
     }
 }
